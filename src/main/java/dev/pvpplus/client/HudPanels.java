@@ -8,6 +8,7 @@ import net.minecraft.client.MinecraftClient;
 
 /** Положение перетаскиваемых панелей. Сохранённая позиция берётся из конфига, иначе - по умолчанию у края экрана. */
 public final class HudPanels {
+    public static boolean editing = false;
     public static final class Def {
         public final String id, title, anchor;
         public final int offX, offY, defW, defH;
